@@ -24,12 +24,26 @@
 }
 
 :root {
-  /* --- THEME TOGGLE SLOT --- */
-  /* For B&W: oklch(15% 0 0) | For Blue: oklch(55% 0.15 250) */
-  --primary: oklch(15% 0 0);
+  /* =========================================
+     PALETTE TOGGLE (Light Mode)
+     Uncomment your preferred palette and comment the rest.
+     ========================================= */
 
+  /* --- Option 1: Classic Black & White --- */
+  /* --primary: oklch(15% 0 0);
+  --primary-foreground: oklch(100% 0 0); */
+
+  /* --- Option 2: Ocean Blue --- */
+
+  --primary: oklch(55% 0.15 250);
   --primary-foreground: oklch(100% 0 0);
-  /* ------------------------- */
+
+
+  /* --- Option 3: Emerald Green --- */
+
+  /* --primary: oklch(55% 0.15 150);
+  --primary-foreground: oklch(100% 0 0); */
+
 
   --background: oklch(100% 0 0);
   --foreground: oklch(15% 0 0);
@@ -47,15 +61,26 @@
 }
 
 .dark {
-  /* --- THEME TOGGLE SLOT --- */
-  /* For B&W: oklch(98% 0 0) | For Blue: oklch(70% 0.12 250) */
+  /* =========================================
+     PALETTE TOGGLE (Dark Mode)
+     Uncomment the matching palette for dark mode.
+     ========================================= */
+
+  /* --- Option 1: Classic Black & White --- */
   /* --primary: oklch(98% 0 0);
   --primary-foreground: oklch(10% 0 0); */
+
+  /* --- Option 2: Ocean Blue --- */
 
   --primary: oklch(55% 0.12 250);
   --primary-foreground: oklch(100% 0 0);
 
-  /* ------------------------- */
+
+  /* --- Option 3: Emerald Green --- */
+  /*
+  --primary: oklch(65% 0.12 150);
+  --primary-foreground: oklch(10% 0 0);
+  */
 
   --background: oklch(8% 0 0);
   --foreground: oklch(98% 0 0);
