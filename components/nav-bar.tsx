@@ -43,7 +43,7 @@ export function NavBar() {
                         active={pathname === "/dashboard"}
                     />
                     <NavButton
-                        href="/proposal"
+                        href="/proposal-board"
                         icon={FileText}
                         label="Proposals"
                         active={pathname.startsWith("/proposal")}

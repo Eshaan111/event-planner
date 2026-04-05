@@ -110,3 +110,17 @@
     @apply transition-all duration-300 ease-physical hover:-translate-y-1.5 hover:shadow-matte active:scale-[0.98];
   }
 }
+
+
+@layer utilities {
+  .no-scrollbar::-webkit-scrollbar {
+    display: none;
+  }
+
+  .no-scrollbar {
+    -ms-overflow-style: none;
+    /* IE and Edge */
+    scrollbar-width: none;
+    /* Firefox */
+  }
+}

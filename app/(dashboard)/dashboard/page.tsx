@@ -23,7 +23,7 @@ export default function DashboardPage() {
             {/* Main Interactive Visual Layer */}
             <div className="relative group overflow-hidden rounded-2xl border border-primary/20 bg-primary/5 shadow-chalk transition-all duration-500 hover:shadow-matte hover:border-primary/40">
                 {/* Subtle Gradient Glow */}
-                <div className="absolute -inset-px bg-gradient-to-tr from-primary/30 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500" />
+                <div className="absolute -inset-px bg-linear-to-tr from-primary/30 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500" />
 
                 <div className="relative h-[450px] flex flex-col items-center justify-center p-8 text-center group-hover:bg-primary/5 transition-colors duration-500">
                     <div className="relative h-20 w-20 rounded-full bg-primary/20 flex items-center justify-center mb-6 shadow-[inset_0_2px_10px_rgba(0,0,0,0.1)] border border-primary/30 group-hover:scale-110 transition-transform duration-500">
@@ -54,7 +54,7 @@ function StatCard({ title, value, icon: Icon, trend, color = "text-muted-foregro
     return (
         <Card className="group relative overflow-hidden border-primary/20 bg-primary/5 shadow-chalk transition-all duration-300 ease-physical hover:shadow-matte hover:-translate-y-1 hover:border-primary/40 active:scale-[0.98]">
             {/* Subtle Top "Glint" - Adds physical edge definition */}
-            <div className="absolute inset-x-0 top-0 h-px bg-gradient-to-r from-transparent via-primary/60 to-transparent opacity-0 group-hover:opacity-100 transition-opacity" />
+            <div className="absolute inset-x-0 top-0 h-px bg-linear-to-r from-transparent via-primary/60 to-transparent opacity-0 group-hover:opacity-100 transition-opacity" />
 
             <CardHeader className="flex flex-row items-center justify-between pb-2 space-y-0">
                 <CardTitle className="text-[10px] font-bold uppercase tracking-widest text-primary/80">
